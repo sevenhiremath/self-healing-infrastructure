@@ -1,1 +1,25 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Python
+__pycache__/
+*.py[cod]
 .venv/
+venv/
+.env
+
+# Logs
+*.log
+nohup.out
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Machine-specific service configuration
+self-healing-infra.service.local
