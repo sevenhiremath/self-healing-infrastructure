@@ -39,6 +39,7 @@ There are two recovery mechanisms:
 | [terraform/monitoring.tf](terraform/monitoring.tf) | CloudWatch dashboard |
 | [deploy/self-healing-infra.service.example](deploy/self-healing-infra.service.example) | Service template for a separate Linux installation |
 | [scripts/measure_systemd_recovery.sh](scripts/measure_systemd_recovery.sh) | Process recovery measurement |
+| [labs/nginx-backend/](labs/nginx-backend/) | Earlier WSL lab for Nginx routing and backend polling |
 
 ## Run the application locally
 
